@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		325CE2CAF7981F0D9E984E3A /* Pods_hairColorChange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DBB5777A3A3B0AC5CD1855 /* Pods_hairColorChange.framework */; };
+		327A0FCCFB2D40F7EFFF1D7B /* Pods_hairColorChangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D0E5095D598D1A6ADB49B0 /* Pods_hairColorChangeTests.framework */; };
+		D0C108D5AB8624F6279D0072 /* Pods_hairColorChange_hairColorChangeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99D5E9CA7FEB6A72CA6ED49 /* Pods_hairColorChange_hairColorChangeUITests.framework */; };
 		E8B18DC12432E7DC000FAC5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B18DC02432E7DC000FAC5A /* AppDelegate.swift */; };
 		E8B18DC32432E7DC000FAC5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B18DC22432E7DC000FAC5A /* SceneDelegate.swift */; };
 		E8B18DC52432E7DC000FAC5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B18DC42432E7DC000FAC5A /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		E8B18DCD2432E7DF000FAC5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B18DCB2432E7DF000FAC5A /* LaunchScreen.storyboard */; };
 		E8B18DD82432E7DF000FAC5A /* hairColorChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B18DD72432E7DF000FAC5A /* hairColorChangeTests.swift */; };
 		E8B18DE32432E7DF000FAC5A /* hairColorChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B18DE22432E7DF000FAC5A /* hairColorChangeUITests.swift */; };
+		E8B18DF12432F80C000FAC5A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B18DF02432F80C000FAC5A /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31344DACB45998F71A64F388 /* Pods-hairColorChange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairColorChange.release.xcconfig"; path = "Target Support Files/Pods-hairColorChange/Pods-hairColorChange.release.xcconfig"; sourceTree = "<group>"; };
+		5DD9F10795659DE41CD1183D /* Pods-hairColorChange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairColorChange.debug.xcconfig"; path = "Target Support Files/Pods-hairColorChange/Pods-hairColorChange.debug.xcconfig"; sourceTree = "<group>"; };
+		65DBB5777A3A3B0AC5CD1855 /* Pods_hairColorChange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hairColorChange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D46FC4FBA086165088D96B0 /* Pods-hairColorChange-hairColorChangeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairColorChange-hairColorChangeUITests.release.xcconfig"; path = "Target Support Files/Pods-hairColorChange-hairColorChangeUITests/Pods-hairColorChange-hairColorChangeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8296D22BF80CB8269EEC5C3C /* Pods-hairColorChange-hairColorChangeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairColorChange-hairColorChangeUITests.debug.xcconfig"; path = "Target Support Files/Pods-hairColorChange-hairColorChangeUITests/Pods-hairColorChange-hairColorChangeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85D0E5095D598D1A6ADB49B0 /* Pods_hairColorChangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hairColorChangeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C91A20C6107D0B975A1D93 /* Pods-hairColorChangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairColorChangeTests.release.xcconfig"; path = "Target Support Files/Pods-hairColorChangeTests/Pods-hairColorChangeTests.release.xcconfig"; sourceTree = "<group>"; };
+		B99D5E9CA7FEB6A72CA6ED49 /* Pods_hairColorChange_hairColorChangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hairColorChange_hairColorChangeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B18DBD2432E7DC000FAC5A /* hairColorChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hairColorChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B18DC02432E7DC000FAC5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B18DC22432E7DC000FAC5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		E8B18DDE2432E7DF000FAC5A /* hairColorChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hairColorChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B18DE22432E7DF000FAC5A /* hairColorChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hairColorChangeUITests.swift; sourceTree = "<group>"; };
 		E8B18DE42432E7DF000FAC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B18DF02432F80C000FAC5A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		EEC8378B73BFA895662DAC25 /* Pods-hairColorChangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairColorChangeTests.debug.xcconfig"; path = "Target Support Files/Pods-hairColorChangeTests/Pods-hairColorChangeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				325CE2CAF7981F0D9E984E3A /* Pods_hairColorChange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327A0FCCFB2D40F7EFFF1D7B /* Pods_hairColorChangeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C108D5AB8624F6279D0072 /* Pods_hairColorChange_hairColorChangeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5825B5653EE67B5255EAF499 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DD9F10795659DE41CD1183D /* Pods-hairColorChange.debug.xcconfig */,
+				31344DACB45998F71A64F388 /* Pods-hairColorChange.release.xcconfig */,
+				8296D22BF80CB8269EEC5C3C /* Pods-hairColorChange-hairColorChangeUITests.debug.xcconfig */,
+				7D46FC4FBA086165088D96B0 /* Pods-hairColorChange-hairColorChangeUITests.release.xcconfig */,
+				EEC8378B73BFA895662DAC25 /* Pods-hairColorChangeTests.debug.xcconfig */,
+				86C91A20C6107D0B975A1D93 /* Pods-hairColorChangeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9BE68DB99368731FECE59BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65DBB5777A3A3B0AC5CD1855 /* Pods_hairColorChange.framework */,
+				B99D5E9CA7FEB6A72CA6ED49 /* Pods_hairColorChange_hairColorChangeUITests.framework */,
+				85D0E5095D598D1A6ADB49B0 /* Pods_hairColorChangeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E8B18DB42432E7DC000FAC5A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				E8B18DD62432E7DF000FAC5A /* hairColorChangeTests */,
 				E8B18DE12432E7DF000FAC5A /* hairColorChangeUITests */,
 				E8B18DBE2432E7DC000FAC5A /* Products */,
+				5825B5653EE67B5255EAF499 /* Pods */,
+				9BE68DB99368731FECE59BAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,7 @@
 			children = (
 				E8B18DC02432E7DC000FAC5A /* AppDelegate.swift */,
 				E8B18DC22432E7DC000FAC5A /* SceneDelegate.swift */,
+				E8B18DF02432F80C000FAC5A /* SwiftUIView.swift */,
 				E8B18DC42432E7DC000FAC5A /* ViewController.swift */,
 				E8B18DC62432E7DC000FAC5A /* Main.storyboard */,
 				E8B18DC92432E7DF000FAC5A /* Assets.xcassets */,
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8B18DE72432E7DF000FAC5A /* Build configuration list for PBXNativeTarget "hairColorChange" */;
 			buildPhases = (
+				B7070A564190FBF44CB5B94E /* [CP] Check Pods Manifest.lock */,
 				E8B18DB92432E7DC000FAC5A /* Sources */,
 				E8B18DBA2432E7DC000FAC5A /* Frameworks */,
 				E8B18DBB2432E7DC000FAC5A /* Resources */,
+				88AD722ADACBA07D08E5CCBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8B18DEA2432E7DF000FAC5A /* Build configuration list for PBXNativeTarget "hairColorChangeTests" */;
 			buildPhases = (
+				52772A2D68AD72406EB9B9A1 /* [CP] Check Pods Manifest.lock */,
 				E8B18DCF2432E7DF000FAC5A /* Sources */,
 				E8B18DD02432E7DF000FAC5A /* Frameworks */,
 				E8B18DD12432E7DF000FAC5A /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8B18DED2432E7DF000FAC5A /* Build configuration list for PBXNativeTarget "hairColorChangeUITests" */;
 			buildPhases = (
+				8C588DD6BC716399E27C7926 /* [CP] Check Pods Manifest.lock */,
 				E8B18DDA2432E7DF000FAC5A /* Sources */,
 				E8B18DDB2432E7DF000FAC5A /* Frameworks */,
 				E8B18DDC2432E7DF000FAC5A /* Resources */,
+				6F35898BD45CCB49C2803862 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +302,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52772A2D68AD72406EB9B9A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hairColorChangeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F35898BD45CCB49C2803862 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hairColorChange-hairColorChangeUITests/Pods-hairColorChange-hairColorChangeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hairColorChange-hairColorChangeUITests/Pods-hairColorChange-hairColorChangeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hairColorChange-hairColorChangeUITests/Pods-hairColorChange-hairColorChangeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88AD722ADACBA07D08E5CCBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hairColorChange/Pods-hairColorChange-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hairColorChange/Pods-hairColorChange-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hairColorChange/Pods-hairColorChange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C588DD6BC716399E27C7926 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hairColorChange-hairColorChangeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7070A564190FBF44CB5B94E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hairColorChange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8B18DB92432E7DC000FAC5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +412,7 @@
 			files = (
 				E8B18DC52432E7DC000FAC5A /* ViewController.swift in Sources */,
 				E8B18DC12432E7DC000FAC5A /* AppDelegate.swift in Sources */,
+				E8B18DF12432F80C000FAC5A /* SwiftUIView.swift in Sources */,
 				E8B18DC32432E7DC000FAC5A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +584,7 @@
 		};
 		E8B18DE82432E7DF000FAC5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DD9F10795659DE41CD1183D /* Pods-hairColorChange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +602,7 @@
 		};
 		E8B18DE92432E7DF000FAC5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31344DACB45998F71A64F388 /* Pods-hairColorChange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +620,7 @@
 		};
 		E8B18DEB2432E7DF000FAC5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC8378B73BFA895662DAC25 /* Pods-hairColorChangeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +642,7 @@
 		};
 		E8B18DEC2432E7DF000FAC5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C91A20C6107D0B975A1D93 /* Pods-hairColorChangeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +664,7 @@
 		};
 		E8B18DEE2432E7DF000FAC5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8296D22BF80CB8269EEC5C3C /* Pods-hairColorChange-hairColorChangeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +684,7 @@
 		};
 		E8B18DEF2432E7DF000FAC5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D46FC4FBA086165088D96B0 /* Pods-hairColorChange-hairColorChangeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
