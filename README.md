@@ -4,9 +4,12 @@
 2.you can press Opt-Cmd-P to make it resume showing your layouts.</br> 
 3.If you find your menu item labels being clipped, try adding .layoutPriority(1)
 
-<B>Spacer</B> - That will automatically take up all available free space
+<B>Spacer</B> 
+- That will automatically take up all available free space
 
-<B>@State</B> - SwiftUI will automatically watch for changes and update any parts of our views that use that state.
+<B>@State</B> 
+- SwiftUI will automatically watch for changes and update any parts of our views that use that state.
+- SwiftUI’s solution is to place a dollar sign before the property name, which lets us refer to the data itself                 rather than its current value
 
 <B>참고 URL</B></br>
 https://medium.com/harrythegreat/swiftui-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-1%ED%8E%B8-%EA%B8%B0%EB%B3%B8%EA%B5%AC%EC%A1%B0-11e7b589e6de</br>
